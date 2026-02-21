@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inscription / Connexion - NextPlay Society</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="main" style="max-width:980px;margin:0 auto;">
+    <h1 class="page-title">Inscription et Connexion</h1>
+    <div class="wallet-cards">
+      <div class="panel">
+        <h3>Créer un compte</h3>
+        <form data-register-form>
+          <div class="form-grid" style="grid-template-columns:1fr;">
+            <input type="text" name="fullName" placeholder="Nom complet" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="password" name="password" placeholder="Mot de passe" required />
+          </div>
+          <p></p>
+          <button class="btn primary" type="submit">S'inscrire</button>
+        </form>
+      </div>
+
+      <div class="panel">
+        <h3>Se connecter</h3>
+        <form data-login-form>
+          <div class="form-grid" style="grid-template-columns:1fr;">
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="password" name="password" placeholder="Mot de passe" required />
+          </div>
+          <p></p>
+          <button class="btn primary" type="submit">Connexion</button>
+          <a class="btn" href="index.html" style="margin-left:8px;">Retour boutique</a>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
