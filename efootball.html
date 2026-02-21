@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recharge eFootball Coins - JUVENS service HT 🇭🇹</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="product-wrap">
+    <div class="product-top">
+      <a href="index.html" class="btn">← Retour</a>
+      <h1>Recharge eFootball Coins</h1>
+      <a class="wallet" href="wallet.html">Wallet: <span data-wallet-amount>0 HTG</span></a>
+    </div>
+
+    <section class="product-box product-hero">
+      <div class="efootball-logo">eFootball</div>
+    </section>
+
+    <section class="product-box about-box">
+      <h2>Recharge eFootball Coins</h2>
+      <p>Achetez vos pièces eFootball rapidement et en toute sécurité. Sélectionnez votre pack, entrez les informations de votre compte et recevez vos coins en quelques minutes.</p>
+      <div class="hero-proof" style="margin-top:10px;">
+        <span>⚡ Livraison rapide</span>
+        <span>🔒 Paiement sécurisé</span>
+        <span>🎮 Compatible Android / iOS / Console</span>
+        <span>💬 Support WhatsApp disponible</span>
+      </div>
+    </section>
+
+    <section class="product-box about-box-light">
+      <h2>À propos de eFootball</h2>
+      <p>eFootball est le nouveau jeu de football développé par Konami (anciennement PES). Utilisez les eFootball Coins pour signer des joueurs stars, ouvrir des packs, participer aux événements et améliorer votre équipe de rêve.</p>
+    </section>
+
+    <section class="product-box">
+      <h2>Sélectionnez votre pack</h2>
+      <select data-efootball-pack>
+        <option value="">Choisissez un pack eFootball Coins</option>
+        <option value="220" data-label="130 pièces">130 pièces — 220 HTG</option>
+        <option value="500" data-label="300 pièces">300 pièces — 500 HTG</option>
+        <option value="900" data-label="550 pièces">550 pièces — 900 HTG</option>
+        <option value="1200" data-label="750 pièces">750 pièces — 1200 HTG</option>
+        <option value="1700" data-label="1040 pièces">1040 pièces — 1700 HTG</option>
+        <option value="3400" data-label="2130 pièces">2130 pièces — 3400 HTG</option>
+        <option value="5000" data-label="3250 pièces">3250 pièces — 5000 HTG</option>
+      </select>
+      <p class="ff-price" data-efootball-price>Prix: --</p>
+    </section>
+
+    <section class="product-box">
+      <h2>Informations du compte</h2>
+      <div class="product-form-grid">
+        <label>Email du compte eFootball
+          <input type="email" data-efootball-email placeholder="Entrez votre email" />
+        </label>
+        <label>Mot de passe
+          <input type="password" data-efootball-pass placeholder="Entrez votre mot de passe" />
+        </label>
+        <label>Numéro WhatsApp
+          <input type="text" data-efootball-whatsapp placeholder="Entrez votre numéro WhatsApp" />
+        </label>
+      </div>
+    </section>
+
+    <section class="product-box">
+      <h2>Résumé de la commande</h2>
+      <div class="order-summary">
+        <p><strong>Produit :</strong> eFootball</p>
+        <p><strong>Pack sélectionné :</strong> <span data-efootball-summary-pack>--</span></p>
+        <p><strong>Prix :</strong> <span data-efootball-summary-price>--</span></p>
+      </div>
+      <button class="btn primary ff-buy" data-efootball-buy>Ajouter au panier</button>
+      <p class="ff-warning warn" data-efootball-warning>⚠️ Sélectionnez un pack et remplissez les informations du compte.</p>
+      <div class="pubg-trust">
+        <p>✔ Service rapide</p>
+        <p>✔ Commande traitée en quelques minutes</p>
+        <p>✔ Assistance client disponible</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

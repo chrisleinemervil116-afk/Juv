@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Fire - NextPlay Society</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="product-wrap">
+    <div class="product-top">
+      <a href="index.html" class="btn">← Retour</a>
+      <h1>Free Fire</h1>
+      <a class="wallet" href="wallet.html">Wallet: <span data-wallet-amount>0 HTG</span></a>
+    </div>
+
+    <section class="product-box product-hero">
+      <div class="ff-logo">FREE FIRE</div>
+    </section>
+
+    <section class="product-box about-box">
+      <h2>À propos de Free Fire</h2>
+      <p>
+        Free Fire est un jeu de survie battle royale en 3D où vous combattez jusqu'à 50 joueurs sur une île déserte.
+        Collectez des armes, équipements et utilisez vos diamants pour débloquer des personnages uniques,
+        des skins d'armes exclusifs et des costumes épiques.
+      </p>
+    </section>
+
+    <section class="product-box">
+      <h2>⚡ Packs de Diamants</h2>
+      <select data-ff-pack>
+        <option value="">💎 Choisissez un pack de diamants</option>
+        <option value="157" data-label="100 + 10 💎">100 + 10 💎 - 157 Gdes</option>
+        <option value="471" data-label="310 + 31 💎">310 + 31 💎 - 471 Gdes</option>
+        <option value="775" data-label="520 + 52 💎">520 + 52 💎 - 775 Gdes</option>
+        <option value="1550" data-label="1060 + 106 💎">1060 + 106 💎 - 1550 Gdes</option>
+        <option value="3100" data-label="2180 + 218 💎">2180 + 218 💎 - 3100 Gdes</option>
+        <option value="7750" data-label="5600 + 560 💎">5600 + 560 💎 - 7750 Gdes</option>
+      </select>
+      <p class="ff-price" data-ff-price>Prix: --</p>
+    </section>
+
+    <section class="product-box">
+      <h2>🎁 Autres Produits</h2>
+      <select data-ff-other>
+        <option value="">Choisissez un autre produit</option>
+        <option value="Carte Cadeau Bonus">Carte Cadeau Bonus</option>
+        <option value="Pass Elite">Pass Elite</option>
+      </select>
+    </section>
+
+    <section class="product-box">
+      <button class="btn primary ff-buy" data-ff-buy>Ajouter au panier</button>
+      <p class="ff-warning warn" data-ff-warning>⚠️ Veuillez sélectionner un pack ci-dessus</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

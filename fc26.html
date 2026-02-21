@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FC 26 - NextPlay Society</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="product-wrap">
+    <div class="product-top">
+      <a href="index.html" class="btn">← Retour</a>
+      <h1>FC Mobile</h1>
+      <a class="wallet" href="wallet.html">Wallet: <span data-wallet-amount>0 HTG</span></a>
+    </div>
+
+    <section class="product-box product-hero">
+      <div class="fc-logo">FC26</div>
+    </section>
+
+    <section class="product-box about-box">
+      <h2>À propos de FC Mobile</h2>
+      <p>
+        FC Mobile est le jeu de football mobile ultime qui vous permet de construire votre équipe de rêve avec les plus grands joueurs.
+        Utilisez vos FC Points pour débloquer des packs, améliorer vos joueurs et dominer sur le terrain.
+      </p>
+    </section>
+
+    <section class="product-box">
+      <h2>⚡ Packs de Points FC</h2>
+      <select data-fc-pack>
+        <option value="">Choisissez un pack de points</option>
+        <option value="95" data-label="40 Points">40 Points - 95 Gdes</option>
+        <option value="210" data-label="100 Points">100 Points - 210 Gdes</option>
+        <option value="1085" data-label="500 + 20 Bonus Points">500 + 20 Bonus Points - 1085 Gdes</option>
+        <option value="2192" data-label="1000 + 70 Bonus Points">1000 + 70 Bonus Points - 2192 Gdes</option>
+        <option value="4250" data-label="2000 + 200 Bonus Points">2000 + 200 Bonus Points - 4250 Gdes</option>
+        <option value="20750" data-label="5000 + 750 Bonus Points">5000 + 750 Bonus Points - 20750 Gdes</option>
+        <option value="10500" data-label="10000 + 2000 Bonus Points">10000 + 2000 Bonus Points - 10500 Gdes</option>
+      </select>
+      <p class="ff-price" data-fc-price>Prix: --</p>
+    </section>
+
+    <section class="product-box">
+      <h2>Informations du compte</h2>
+      <div class="product-form-grid">
+        <label>Email du compte
+          <input type="email" data-fc-email placeholder="Entrez votre email de compte" />
+        </label>
+        <label>Mot de passe
+          <input type="password" data-fc-pass placeholder="Entrez votre mot de passe" />
+        </label>
+        <label>Numéro WhatsApp
+          <input type="text" data-fc-whatsapp placeholder="Entrez votre numéro WhatsApp" />
+        </label>
+      </div>
+      <button class="btn primary ff-buy" data-fc-buy>Ajouter au panier</button>
+      <p class="ff-warning warn" data-fc-warning>⚠️ Choisissez un pack et remplissez les informations.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
